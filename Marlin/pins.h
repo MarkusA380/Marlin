@@ -1320,7 +1320,7 @@
 #define FAN_PIN            7
 #define PS_ON_PIN          -1
 #define KILL_PIN           -1
-#define SUICIDE_PIN        54  //PIN that has to be turned on right after start, to keep power flowing.
+#define SUICIDE_PIN        54
 
 #ifdef ULTRA_LCD
 
@@ -1338,7 +1338,7 @@
     //buttons are directly attached
     #define BTN_EN1 40
     #define BTN_EN2 42
-    #define BTN_ENC 19  //the click
+    #define BTN_ENC 19
 
     #define SDCARDDETECT 38
 
@@ -2679,4 +2679,3 @@
                         _E0_PINS _E1_PINS _E2_PINS             \
                         analogInputToDigitalPin(TEMP_0_PIN), analogInputToDigitalPin(TEMP_1_PIN), analogInputToDigitalPin(TEMP_2_PIN), analogInputToDigitalPin(TEMP_BED_PIN) }
 #endif
-
